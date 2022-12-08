@@ -9,11 +9,11 @@ Fill numbers to complete 2D grid where different numbers are in different paths.
 The algorithms performed in this code are 
 	func.checkNumbers : check whether the input 2D array is possible to find solutions or not
 	func.findEveryPaths : this function is where you can modify this code. 
-												You can add more conditions to get less lines of possible paths, orginally I thought of 2 conditions;
-												first one is when the current number path is completely blocking the another number, which then has no where to go.
-												second one is "Hole", where the current number path formed a hole on the board.
+			You can add more conditions to get less lines of possible paths, orginally I thought of 2 conditions;
+			first one is when the current number path is completely blocking the another number, which then has no where to go.
+			second one is "Hole", where the current number path formed a hole on the board.
  func.findUntillDone : obviously brute-force function, but I didn't know how to end immediately, 
- 												needed only one solution so I cheated(set some global var and forced stop)
+			needed only one solution so I cheated(set some global var and forced stop)
  func.sortByPathLength : sorting from shortest path length to longest path length of all-possible-paths...
 
  The Hole mentioned is 
